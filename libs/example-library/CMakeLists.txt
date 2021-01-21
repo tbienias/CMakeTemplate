@@ -19,6 +19,13 @@ set_target_properties(CMakeTemplate_example-library
 )
 
 #==============================================================================#
+# Set C++ standard to match used language features.
+#==============================================================================#
+target_compile_features(CMakeTemplate_example-library
+    PUBLIC
+        cxx_std_11)
+
+#==============================================================================#
 # Declare target includes for public headers.
 #==============================================================================#
 target_include_directories(CMakeTemplate_example-library

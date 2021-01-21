@@ -13,6 +13,14 @@ set_target_properties(CMakeTemplate_example-app
 )
 
 #==============================================================================#
+# Set C++ standard to match used language features.
+#==============================================================================#
+target_compile_features(CMakeTemplate_example-app
+    PRIVATE
+        cxx_std_11
+)
+
+#==============================================================================#
 # Link against used libraries.
 #==============================================================================#
 target_link_libraries(CMakeTemplate_example-app
