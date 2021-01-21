@@ -1,0 +1,12 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	"recommendations": [
+		"llvm-vs-code-extensions.vscode-clangd",
+		"vadimcn.vscode-lldb",
+		"twxs.cmake",
+		"ms-vscode.cmake-tools",
+	],
+	"unwantedRecommendations": [
+		"ms-vscode.cpptools",
+	]
+}
